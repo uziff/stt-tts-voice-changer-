@@ -1,3 +1,4 @@
 pygame==2.6.1
 pyttsx3==2.98
 RealtimeSTT==0.3.0
+google-generativeai
