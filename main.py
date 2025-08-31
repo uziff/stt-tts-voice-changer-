@@ -29,7 +29,7 @@ def speak(text):
 
     try:
         response = client.models.generate_content(
-           model="gemini-2.5-pro-preview-tts",
+           model="gemini-2.5-flash-preview-tts",
            contents='Read aloud in a warm, natural, friendly but also really intrigued tone. you are speaking in an online voice chat called discord: ' + text, # to make the voice sound slightly natural
            config=types.GenerateContentConfig(
               response_modalities=["AUDIO"],
